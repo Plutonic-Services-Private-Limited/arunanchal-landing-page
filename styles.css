@@ -1,0 +1,222 @@
+body {
+    font-family: 'Poppins';
+    width: 100%;
+}
+
+.section-1 {
+    background-image: url("imgs/arunanchal_university_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 17%;
+    height: 9%;
+    margin-left: 7%;
+    margin-top: 27px;
+}
+
+.section-1-1 {
+    background-color: #007475;
+    opacity: 70%;
+    height: 67%;
+    margin-left: 4%;
+    border-radius: 40px;
+    margin-bottom: 120px;
+}
+
+.section-2 {
+    background-color: #007475;
+    margin-top: -80px;
+    border-radius: 25px 0 0 0;
+}
+
+.white36semibold {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+}
+
+.white16 {
+    font-size: 16px;
+    color: white;
+}
+
+.section-1-1-heading {
+    font-size: 43px;
+    margin-left: 50px;
+    margin-top: 88px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.section-1-1-heading2 {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.section-1-1-heading3 {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #FFE51F;
+    font-weight: 600;
+}
+
+.section-1-1-heading4 {
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #FFE51F;
+    font-weight: 600;
+}
+
+#authTabs {
+    margin-left: 10px;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 0.5rem;
+    --bs-nav-link-padding-y: 0.2rem;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007475 !important;
+    color: white !important;
+}
+
+.form-item {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 92%;
+}
+
+.register_btn {
+    border-radius: 10px;
+    background-color: #007475;
+    border-color: #007475;
+    height: 45px;
+    color: white;
+}
+
+.why-choose {
+    background-color: #E8F6FF;
+    color: #007475;
+    border-radius: 24px;
+    padding: 6px 15px;
+    font-weight: 700;
+}
+
+.section-3-heading {
+    color: #343434;
+    font-weight: 800;
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.section-3-subheading {
+    color: #343434;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section-4-heading {
+    color: #16334F;
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.section-4-heading::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 30px;
+    height: 4px;
+    background-color: #ff6600;
+}
+
+.section-5-heading {
+    color: #343434;
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.section-6-detail {
+    color: #16334F;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-header {
+    background-color: white;
+}
+
+.btn-link {
+    color: black;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: auto;
+}
+
+.programme-name {
+    margin: 20px 16px;
+    font-size: 20px;
+}
+
+.programme-card {
+    box-shadow: 0px 7px 18px #076CCE29;
+}
+
+.scholarship-card {
+    background-image: url("imgs/scholarship-background.png");
+    height: 485px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course-card {
+    border-radius: 26px;
+    box-shadow: 10px 24px 54px #0000000D;
+}
+
+.green-student-name {
+    color: #007475;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.yellow-student-name {
+    color: #FFBA1F;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.testimonial-card {
+    border-radius: 16px;
+}
+
+.green-card {
+    background-color: #007475;
+}
