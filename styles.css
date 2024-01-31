@@ -92,6 +92,15 @@ body {
     .recognitions-data {
         width: 80%;
     }
+
+    .success-stories {
+        margin: 90px 70px 60px;
+    }
+
+    .success-heading {
+        font-size: 45px;
+        font-weight: 900;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -178,6 +187,12 @@ body {
 
     .recognitions-data {
         width: 100%;
+    }
+
+    .success-heading {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 900;
     }
 }
 
