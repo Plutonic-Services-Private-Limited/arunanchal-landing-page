@@ -3,32 +3,182 @@ body {
     width: 100%;
 }
 
-.section-1 {
-    background-image: url("imgs/arunanchal_university_main.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+@media only screen and (min-width: 600px) {
+    .logo {
+        width: 17%;
+        height: 9%;
+        margin-left: 7%;
+        margin-top: 27px;
+    }
+
+    .section-1 {
+        background-image: url("imgs/arunanchal_university_main.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-1-1 {
+        background-color: #007475;
+        opacity: 70%;
+        height: 67%;
+        margin-left: 4%;
+        border-radius: 40px;
+        margin-bottom: 120px;
+    }
+
+    .section-1-1-heading {
+        font-size: 43px;
+        margin-left: 50px;
+        margin-top: 88px;
+        color: white;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .section-1-1-heading2 {
+        font-size: 28px;
+        margin-left: 50px;
+        margin-top: 5px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .section-1-1-heading3 {
+        font-size: 18px;
+        margin-left: 50px;
+        margin-top: 10px;
+        color: #FFE51F;
+        font-weight: 600;
+    }
+
+    .section-1-1-heading4 {
+        font-size: 24px;
+        margin-left: 50px;
+        margin-top: 10px;
+        color: #FFE51F;
+        font-weight: 600;
+    }
+
+    .auth-forms {
+        margin-top: -70px;
+        margin-left: 50px;
+    }
+
+    .section-2 {
+        background-color: #007475;
+        margin-top: -80px;
+        border-radius: 25px 0 0 0;
+    }
+
+    .section-6-detail {
+        color: #16334F;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .courses-row {
+        margin: 0 70px 180px;
+    }
+
+    .courses-detail {
+        margin: 0 70px 60px;
+    }
+
+    .recognitions {
+        margin-left: 60px;
+        width: 80%;
+    }
+
+    .recognitions-data {
+        width: 80%;
+    }
 }
 
-.logo {
-    width: 17%;
-    height: 9%;
-    margin-left: 7%;
-    margin-top: 27px;
-}
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 27px;
+    }
 
-.section-1-1 {
-    background-color: #007475;
-    opacity: 70%;
-    height: 67%;
-    margin-left: 4%;
-    border-radius: 40px;
-    margin-bottom: 120px;
-}
+    .section-1 {
+        background-image: url("imgs/arunanchal_university_main.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+        display: block;
+    }
 
-.section-2 {
-    background-color: #007475;
-    margin-top: -80px;
-    border-radius: 25px 0 0 0;
+    .section-1-1 {
+        background-color: #007475;
+        opacity: 70%;
+        width: 96%;
+        height: 330px;
+        margin-left: 2%;
+        border-radius: 40px;
+        margin-bottom: 120px;
+    }
+
+    .section-1-1-heading {
+        font-size: 32px;
+        margin-top: 16px;
+        color: white;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .section-1-1-heading2 {
+        font-size: 20px;
+        margin-top: 5px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .section-1-1-heading3 {
+        font-size: 16px;
+        margin-top: 10px;
+        color: #FFE51F;
+        font-weight: 600;
+    }
+
+    .section-1-1-heading4 {
+        font-size: 24px;
+        margin-top: 10px;
+        color: #FFE51F;
+        font-weight: 600;
+    }
+
+    .auth-forms {
+        margin-top: 40px;
+    }
+
+    .section-2 {
+        background-color: #007475;
+        margin-top: 380px;
+        border-radius: 25px 0 0 0;
+    }
+
+    .features {
+        margin-bottom: 20px;
+    }
+
+    .section-6-detail {
+        color: #16334F;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .provide-details {
+        width: auto;
+    }
+
+    .recognitions {
+        width: 100%;
+    }
+
+    .recognitions-data {
+        width: 100%;
+    }
 }
 
 .white36semibold {
@@ -40,39 +190,6 @@ body {
 .white16 {
     font-size: 16px;
     color: white;
-}
-
-.section-1-1-heading {
-    font-size: 43px;
-    margin-left: 50px;
-    margin-top: 88px;
-    color: white;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.section-1-1-heading2 {
-    font-size: 28px;
-    margin-left: 50px;
-    margin-top: 5px;
-    color: white;
-    font-weight: 700;
-}
-
-.section-1-1-heading3 {
-    font-size: 18px;
-    margin-left: 50px;
-    margin-top: 10px;
-    color: #FFE51F;
-    font-weight: 600;
-}
-
-.section-1-1-heading4 {
-    font-size: 24px;
-    margin-left: 50px;
-    margin-top: 10px;
-    color: #FFE51F;
-    font-weight: 600;
 }
 
 #authTabs {
@@ -156,12 +273,6 @@ body {
     font-weight: 800;
     font-size: 28px;
     margin-top: 10px;
-}
-
-.section-6-detail {
-    color: #16334F;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .card-header {
