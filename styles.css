@@ -101,6 +101,12 @@ body {
         font-size: 45px;
         font-weight: 900;
     }
+    .feature-move-right{
+        margin-left: 20px;
+    }
+    .feature-move-left{
+        margin-right: 40px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -345,4 +351,19 @@ body {
 
 .green-card {
     background-color: #007475;
+}
+
+ul.custom-list{
+    padding-left: 1.8em;
+}
+ul.custom-list > li {
+    list-style-type: none;
+    text-indent: -1em;
+    padding-left: 0.5em;
+}
+
+ul.custom-list > li::before {
+    content: "-";
+    display: inline-block;
+    padding-right: 1em;
 }
