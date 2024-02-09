@@ -402,3 +402,44 @@ ul.custom-list > li::before {
     display: inline-block;
     padding-right: 1em;
 }
+
+.block-1 {
+    --animate-duration: 1000ms;
+    --animate-delay: 2s;
+}
+
+.block-2 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.block-3 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.block-5 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.block-6 {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+}
+
+.zoom-in {
+    transition: transform .2s;
+}
+
+.zoom-in:hover {
+    transform: scale(1.1);
+}
+
+.zoom-in-less {
+    transition: transform .2s;
+}
+
+.zoom-in-less:hover {
+    transform: scale(1.05);
+}
