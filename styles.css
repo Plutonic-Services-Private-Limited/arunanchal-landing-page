@@ -124,6 +124,10 @@ body {
     .feature-move-left {
         margin-right: 40px;
     }
+
+    .awards-acheivements{
+        margin: 30px 90px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
