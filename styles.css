@@ -9,10 +9,22 @@ body {
         height: 9%;
         margin-left: 7%;
         margin-top: 27px;
+        margin-bottom: 30px;
+    }
+
+    .login-card {
+        min-height: 541px;
+    }
+
+    .section-1-front {
+        position: absolute;
+        top: 130px;
+        left: 40px;
+        width: 90%;
     }
 
     .section-1 {
-        background-image: url("imgs/arunanchal_university_main.jpg");
+        background-image: url("imgs/arunachal_university_main.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -24,6 +36,8 @@ body {
         margin-left: 4%;
         border-radius: 40px;
         margin-bottom: 120px;
+        min-height: 515px;
+        position: relative;
     }
 
     .section-1-1-heading {
@@ -62,6 +76,7 @@ body {
     .auth-forms {
         margin-top: -70px;
         margin-left: 50px;
+        opacity: 100%;
     }
 
     .section-2 {
@@ -101,10 +116,12 @@ body {
         font-size: 45px;
         font-weight: 900;
     }
-    .feature-move-right{
+
+    .feature-move-right {
         margin-left: 20px;
     }
-    .feature-move-left{
+
+    .feature-move-left {
         margin-right: 40px;
     }
 }
@@ -114,10 +131,21 @@ body {
         width: 60%;
         margin-left: 20%;
         margin-top: 27px;
+        margin-bottom: 20px;
+    }
+
+    .login-card {
+        min-height: 541px;
+    }
+
+    .section-1-front {
+        position: absolute;
+        top: 130px;
+        left: 40px;
     }
 
     .section-1 {
-        background-image: url("imgs/arunanchal_university_main.jpg");
+        background-image: url("imgs/arunachal_university_main.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 750px;
@@ -165,6 +193,7 @@ body {
 
     .auth-forms {
         margin-top: 40px;
+        margin-left: -20px;
     }
 
     .section-2 {
@@ -318,6 +347,7 @@ body {
 
 .programme-card {
     box-shadow: 0px 7px 18px #076CCE29;
+    cursor: pointer;
 }
 
 .scholarship-card {
@@ -353,9 +383,10 @@ body {
     background-color: #007475;
 }
 
-ul.custom-list{
+ul.custom-list {
     padding-left: 1.8em;
 }
+
 ul.custom-list > li {
     list-style-type: none;
     text-indent: -1em;
