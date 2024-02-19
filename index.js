@@ -95,3 +95,32 @@ function topFunction() {
     else
         window.scrollTo({top: 450, behavior: 'smooth'});
 }
+
+function forgotPassword() {
+    document.getElementById("password").style.display = "none";
+    document.getElementById("remember").style.display = "none";
+    document.getElementById("login_password").style.display = "none";
+    document.getElementById("login_menu").style.display = "none";
+    document.getElementById("login_now").style.display = "block";
+    document.getElementById("login_btn").innerText = "Submit";
+}
+
+function loginNow() {
+    document.getElementById("password").style.display = "block";
+    document.getElementById("otp").style.display = "none";
+    document.getElementById("remember").style.display = "block";
+    document.getElementById("login_password").style.display = "none";
+    document.getElementById("login_menu").style.display = "flex";
+    document.getElementById("login_now").style.display = "none";
+    document.getElementById("login_btn").innerText = "Login";
+}
+
+function loginOtp() {
+    document.getElementById("password").style.display = "none";
+    document.getElementById("otp").style.display = "block";
+    document.getElementById("login_password").style.display = "block";
+    document.getElementById("remember").style.display = "none";
+    document.getElementById("login_menu").style.display = "none";
+    document.getElementById("login_now").style.display = "none";
+    document.getElementById("login_btn").innerText = "Login";
+}
