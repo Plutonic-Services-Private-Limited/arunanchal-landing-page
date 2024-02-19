@@ -82,3 +82,7 @@ window.onload = function () {
         observer4.observe(div);
     });
 }
+
+function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
