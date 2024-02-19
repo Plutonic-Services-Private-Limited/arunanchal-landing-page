@@ -218,6 +218,7 @@ body {
 
     .provide-details {
         width: auto;
+        padding-right: 0;
     }
 
     .recognitions {
