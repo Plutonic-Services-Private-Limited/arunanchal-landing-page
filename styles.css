@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins';
     width: 100%;
+    overflow-x: hidden;
 }
 
 @media only screen and (min-width: 600px) {
