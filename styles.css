@@ -84,6 +84,7 @@ body {
         background-color: #007475;
         margin-top: -80px;
         border-radius: 25px 0 0 0;
+        padding-bottom: 10px;
     }
 
     .section-6-detail {
@@ -126,8 +127,19 @@ body {
         margin-right: 40px;
     }
 
-    .awards-acheivements{
+    .awards-acheivements {
         margin: 30px 90px;
+    }
+
+    .white16 {
+        font-size: 16px;
+        color: white;
+    }
+
+    .white36semibold {
+        font-size: 36px;
+        color: white;
+        font-weight: 700;
     }
 }
 
@@ -236,18 +248,19 @@ body {
         font-size: 24px;
         font-weight: 900;
     }
+
+    .white16 {
+        font-size: 14px;
+        color: white;
+    }
+
+    .white36semibold {
+        font-size: 28px;
+        color: white;
+        font-weight: 700;
+    }
 }
 
-.white36semibold {
-    font-size: 36px;
-    color: white;
-    font-weight: 700;
-}
-
-.white16 {
-    font-size: 16px;
-    color: white;
-}
 
 #authTabs {
     margin-left: 10px;

@@ -54,6 +54,11 @@ const observer4 = new IntersectionObserver(intersections => {
         counter("count3", 0, 120, 1500, true);
         counter("count4", 0, 300, 1500, true);
         counter("count5", 5800, 6000, 1500, true);
+        counter("count6", 0, 45, 1500, true);
+        counter("count7", 0, 85, 1500, false);
+        counter("count8", 0, 120, 1500, true);
+        counter("count9", 0, 300, 1500, true);
+        counter("count10", 5800, 6000, 1500, true);
         if (isIntersecting) {
             observer4.unobserve(target);
         }
@@ -84,5 +89,9 @@ window.onload = function () {
 }
 
 function topFunction() {
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    var w = screen.width;
+    if (w > 600)
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    else
+        window.scrollTo({top: 450, behavior: 'smooth'});
 }
